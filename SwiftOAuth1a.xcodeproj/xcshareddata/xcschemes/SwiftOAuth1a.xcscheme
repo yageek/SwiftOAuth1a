@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BEF60A01BB7C8F30059BEE1"
+               BlueprintIdentifier = "0BEF60CA1BB7CC040059BEE1"
                BuildableName = "SwiftOAuth1aTests.xctest"
                BlueprintName = "SwiftOAuth1aTests"
                ReferencedContainer = "container:SwiftOAuth1a.xcodeproj">
