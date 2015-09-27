@@ -8,29 +8,39 @@
 
 import XCTest
 @testable import SwiftOAuth1a
-
-class SwiftOAuth1aTests: XCTestCase {
+class ISOTest: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    //See RFC5849: https://tools.ietf.org/html/rfc5849#section-3.4.1.3.2
+    func testParameterNormalization() {
+        let parameters = ParameterList()
+        parameters.addParameter("b5", value: "=%3D")
+        parameters.addParameter("a3", value: "a")
+        parameters.addParameter("c@")
+        parameters.addParameter("a2", value: "r b")
+        parameters.addParameter("oauth_consumer_key", value: "9djdj82h48djs9d2")
+        parameters.addParameter("oauth_token", value: "kkk9d7dh3k39sjv7")
+        parameters.addParameter("oauth_signature_method", value: "HMAC-SHA1")
+        parameters.addParameter("oauth_timestamp", value: "137131201")
+        parameters.addParameter("oauth_nonce", value: "7d8f3e4a")
+        parameters.addParameter("c2")
+        parameters.addParameter("a3", value: "2 q")
+        
+        let expectedString = "a2=r%20b&a3=2%20q&a3=a&b5=%3D%253D&c%40=&c2=&oauth_consumer_key=9dj" +
+            "dj82h48djs9d2&oauth_nonce=7d8f3e4a&oauth_signature_method=HMAC-SHA1" +
+        "&oauth_timestamp=137131201&oauth_token=kkk9d7dh3k39sjv7"
+        
+        XCTAssertEqual(parameters.normalizedParameters(), expectedString)
+        
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    
+    func testBaseStringURIExample1(){
+        let URL = NSURL(string: "http://example.com:80/r%20v/X?id=123")!
+        XCTAssertEqual(URL.baseStringURI(), "http://example.com/r%20v/X")
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testBaseStringURIExample2(){
+        let URL = NSURL(string: "https://www.example.net:8080/?q=1")!
+        XCTAssertEqual(URL.baseStringURI(), "https://www.example.net:8080/")
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

@@ -1,0 +1,17 @@
+//
+//  String.swift
+//  SwiftOAuth1a
+//
+//  Created by Yannick Heinrich on 17/06/15.
+//  Copyright © 2015 yageek. All rights reserved.
+//
+
+import Foundation
+
+extension String {
+    func pcen() -> String {
+        let characterSet = NSCharacterSet.URLQueryAllowedCharacterSet().mutableCopy() as! NSMutableCharacterSet
+        characterSet.removeCharactersInString("!*'();:@&=+$,/?%#[]")
+        return stringByAddingPercentEncodingWithAllowedCharacters(characterSet)!
+    }
+}
