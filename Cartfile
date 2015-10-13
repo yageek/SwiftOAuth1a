@@ -1,2 +1,2 @@
-github "yageek/HMAC" "v0.3.2"
-github "yageek/Base32" "v0.3.2"
+github "norio-nomura/HMAC" "v0.4.1"
+github "norio-nomura/Base32" "v0.4.1"
