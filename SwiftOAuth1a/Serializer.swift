@@ -67,13 +67,33 @@ public class Serializer {
         return String(format: "%i", arguments: [Int(t)])
 
     }
-        public init(consumerKey key:String, consumerSecret secret:String, accessToken token:String? = nil, tokenSecret:String? = nil){
+    /**
+    Initialize a new OAuth1A Serializer
+    
+    - parameter consumerKey:    The consumer key
+    - parameter consumerSecret: The consumer secret
+    - parameter accessToken:    The access token if available
+    - parameter tokenSecret:    The token secret if available
+    
+    - returns: A new OAuth1A serializer
+   */
+    
+    public init(consumerKey key:String, consumerSecret secret:String, accessToken token:String? = nil, tokenSecret:String? = nil){
             self.consumerKey = key
             self.consumerSecret = secret
             self.accessToken = token
             self.tokenSecret = tokenSecret
         }
-
+    /**
+   Serailize a request
+    
+    - parameter method:     The HTTP Method
+    - parameter url:        The URL
+    - parameter parameters: The parameters of the request
+    
+    - returns: A NSMutableURLRequest instance
+    
+    */
     public func URLRequest(method:String, url:NSURL, parameters:[String: String]) -> NSMutableURLRequest? {
         
         
