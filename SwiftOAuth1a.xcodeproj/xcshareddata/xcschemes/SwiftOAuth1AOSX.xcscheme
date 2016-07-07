@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BE8512B1BCD5B4700898353"
-               BuildableName = "SwitfOAuth1aOSX.framework"
-               BlueprintName = "SwitfOAuth1aOSX"
+               BlueprintIdentifier = "0B590C961D2E69CE00E61E66"
+               BuildableName = "SwiftOAuth1AOSX.framework"
+               BlueprintName = "SwiftOAuth1AOSX"
                ReferencedContainer = "container:SwiftOAuth1a.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BE8512B1BCD5B4700898353"
-            BuildableName = "SwitfOAuth1aOSX.framework"
-            BlueprintName = "SwitfOAuth1aOSX"
+            BlueprintIdentifier = "0B590C961D2E69CE00E61E66"
+            BuildableName = "SwiftOAuth1AOSX.framework"
+            BlueprintName = "SwiftOAuth1AOSX"
             ReferencedContainer = "container:SwiftOAuth1a.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BE8512B1BCD5B4700898353"
-            BuildableName = "SwitfOAuth1aOSX.framework"
-            BlueprintName = "SwitfOAuth1aOSX"
+            BlueprintIdentifier = "0B590C961D2E69CE00E61E66"
+            BuildableName = "SwiftOAuth1AOSX.framework"
+            BlueprintName = "SwiftOAuth1AOSX"
             ReferencedContainer = "container:SwiftOAuth1a.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
