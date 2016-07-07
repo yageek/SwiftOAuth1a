@@ -7,25 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BE8512F1BCD5B4700898353 /* SwitfOAuth1aOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE8512E1BCD5B4700898353 /* SwitfOAuth1aOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BE851341BCD5B5500898353 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B11BB7C9510059BEE1 /* NSURL.swift */; };
-		0BE851351BCD5B5500898353 /* ParameterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B21BB7C9510059BEE1 /* ParameterList.swift */; };
-		0BE851361BCD5B5500898353 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B31BB7C9510059BEE1 /* Serializer.swift */; };
-		0BE851371BCD5B5500898353 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B41BB7C9510059BEE1 /* String.swift */; };
-		0BE8513A1BCD5B8800898353 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE851381BCD5B8800898353 /* Base32.framework */; };
-		0BE8513B1BCD5B8800898353 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE851391BCD5B8800898353 /* HMAC.framework */; };
-		0BEF609B1BB7C8F30059BEE1 /* SwiftOAuth1a.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEF609A1BB7C8F30059BEE1 /* SwiftOAuth1a.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BEF60B51BB7C9510059BEE1 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B11BB7C9510059BEE1 /* NSURL.swift */; settings = {ASSET_TAGS = (); }; };
-		0BEF60B61BB7C9510059BEE1 /* ParameterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B21BB7C9510059BEE1 /* ParameterList.swift */; settings = {ASSET_TAGS = (); }; };
-		0BEF60B71BB7C9510059BEE1 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B31BB7C9510059BEE1 /* Serializer.swift */; settings = {ASSET_TAGS = (); }; };
-		0BEF60B81BB7C9510059BEE1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60B41BB7C9510059BEE1 /* String.swift */; settings = {ASSET_TAGS = (); }; };
-		0BEF60BA1BB7C9570059BEE1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0BEF60B91BB7C9570059BEE1 /* Cartfile */; settings = {ASSET_TAGS = (); }; };
-		0BEF60BD1BB7CA300059BEE1 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60BB1BB7CA300059BEE1 /* HMAC.framework */; };
-		0BEF60BE1BB7CA300059BEE1 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60BC1BB7CA300059BEE1 /* Base32.framework */; };
+		0B590C881D2E642F00E61E66 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B590C821D2E642F00E61E66 /* Info.plist */; };
+		0B590C891D2E642F00E61E66 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C831D2E642F00E61E66 /* NSURL.swift */; };
+		0B590C8A1D2E642F00E61E66 /* ParameterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C841D2E642F00E61E66 /* ParameterList.swift */; };
+		0B590C8B1D2E642F00E61E66 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C851D2E642F00E61E66 /* Serializer.swift */; };
+		0B590C8C1D2E642F00E61E66 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C861D2E642F00E61E66 /* String.swift */; };
+		0B590C8D1D2E642F00E61E66 /* SwiftOAuth1a.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B590C871D2E642F00E61E66 /* SwiftOAuth1a.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B590C901D2E657500E61E66 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B590C8E1D2E657500E61E66 /* Base32.framework */; };
+		0B590C911D2E657500E61E66 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B590C8F1D2E657500E61E66 /* HMAC.framework */; };
+		0BEF60BA1BB7C9570059BEE1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0BEF60B91BB7C9570059BEE1 /* Cartfile */; };
 		0BEF60CE1BB7CC040059BEE1 /* SwiftOAuth1aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60CD1BB7CC040059BEE1 /* SwiftOAuth1aTests.swift */; };
-		0BEF60D01BB7CC040059BEE1 /* SwiftOAuth1a.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */; settings = {ASSET_TAGS = (); }; };
-		0BEF60D61BB7CC0E0059BEE1 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60BB1BB7CA300059BEE1 /* HMAC.framework */; };
-		0BEF60D71BB7CC0E0059BEE1 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60BC1BB7CA300059BEE1 /* Base32.framework */; };
+		0BEF60D01BB7CC040059BEE1 /* SwiftOAuth1a.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,42 +31,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE8512C1BCD5B4700898353 /* SwitfOAuth1aOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwitfOAuth1aOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE8512E1BCD5B4700898353 /* SwitfOAuth1aOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitfOAuth1aOSX.h; sourceTree = "<group>"; };
-		0BE851301BCD5B4700898353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BE851381BCD5B8800898353 /* Base32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Base32.framework; path = Carthage/Build/Mac/Base32.framework; sourceTree = "<group>"; };
-		0BE851391BCD5B8800898353 /* HMAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMAC.framework; path = Carthage/Build/Mac/HMAC.framework; sourceTree = "<group>"; };
+		0B590C821D2E642F00E61E66 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B590C831D2E642F00E61E66 /* NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL.swift; sourceTree = "<group>"; };
+		0B590C841D2E642F00E61E66 /* ParameterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterList.swift; sourceTree = "<group>"; };
+		0B590C851D2E642F00E61E66 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		0B590C861D2E642F00E61E66 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0B590C871D2E642F00E61E66 /* SwiftOAuth1a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftOAuth1a.h; sourceTree = "<group>"; };
+		0B590C8E1D2E657500E61E66 /* Base32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Base32.framework; path = Carthage/Build/iOS/Base32.framework; sourceTree = "<group>"; };
+		0B590C8F1D2E657500E61E66 /* HMAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMAC.framework; path = Carthage/Build/iOS/HMAC.framework; sourceTree = "<group>"; };
 		0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOAuth1a.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BEF609A1BB7C8F30059BEE1 /* SwiftOAuth1a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOAuth1a.h; sourceTree = "<group>"; };
-		0BEF609C1BB7C8F30059BEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BEF60B11BB7C9510059BEE1 /* NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURL.swift; path = SwiftOAuth1a/NSURL.swift; sourceTree = "<group>"; };
-		0BEF60B21BB7C9510059BEE1 /* ParameterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterList.swift; path = SwiftOAuth1a/ParameterList.swift; sourceTree = "<group>"; };
-		0BEF60B31BB7C9510059BEE1 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = SwiftOAuth1a/Serializer.swift; sourceTree = "<group>"; };
-		0BEF60B41BB7C9510059BEE1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = SwiftOAuth1a/String.swift; sourceTree = "<group>"; };
 		0BEF60B91BB7C9570059BEE1 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		0BEF60BB1BB7CA300059BEE1 /* HMAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMAC.framework; path = Carthage/Build/iOS/HMAC.framework; sourceTree = "<group>"; };
-		0BEF60BC1BB7CA300059BEE1 /* Base32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Base32.framework; path = Carthage/Build/iOS/Base32.framework; sourceTree = "<group>"; };
 		0BEF60CB1BB7CC040059BEE1 /* SwiftOAuth1aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOAuth1aTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEF60CD1BB7CC040059BEE1 /* SwiftOAuth1aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOAuth1aTests.swift; sourceTree = "<group>"; };
 		0BEF60CF1BB7CC040059BEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BE851281BCD5B4700898353 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BE8513A1BCD5B8800898353 /* Base32.framework in Frameworks */,
-				0BE8513B1BCD5B8800898353 /* HMAC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0BEF60931BB7C8F30059BEE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BEF60BD1BB7CA300059BEE1 /* HMAC.framework in Frameworks */,
-				0BEF60BE1BB7CA300059BEE1 /* Base32.framework in Frameworks */,
+				0B590C901D2E657500E61E66 /* Base32.framework in Frameworks */,
+				0B590C911D2E657500E61E66 /* HMAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BEF60D61BB7CC0E0059BEE1 /* HMAC.framework in Frameworks */,
-				0BEF60D71BB7CC0E0059BEE1 /* Base32.framework in Frameworks */,
 				0BEF60D01BB7CC040059BEE1 /* SwiftOAuth1a.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,38 +67,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BE851261BCD5B2100898353 /* General */ = {
+		0B590C811D2E642F00E61E66 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0BEF60B11BB7C9510059BEE1 /* NSURL.swift */,
-				0BEF60B21BB7C9510059BEE1 /* ParameterList.swift */,
-				0BEF60B31BB7C9510059BEE1 /* Serializer.swift */,
-				0BEF60B41BB7C9510059BEE1 /* String.swift */,
+				0B590C821D2E642F00E61E66 /* Info.plist */,
+				0B590C831D2E642F00E61E66 /* NSURL.swift */,
+				0B590C841D2E642F00E61E66 /* ParameterList.swift */,
+				0B590C851D2E642F00E61E66 /* Serializer.swift */,
+				0B590C861D2E642F00E61E66 /* String.swift */,
+				0B590C871D2E642F00E61E66 /* SwiftOAuth1a.h */,
 			);
-			name = General;
-			sourceTree = "<group>";
-		};
-		0BE8512D1BCD5B4700898353 /* SwitfOAuth1aOSX */ = {
-			isa = PBXGroup;
-			children = (
-				0BE8512E1BCD5B4700898353 /* SwitfOAuth1aOSX.h */,
-				0BE851301BCD5B4700898353 /* Info.plist */,
-			);
-			path = SwitfOAuth1aOSX;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		0BEF608D1BB7C8F30059BEE1 = {
 			isa = PBXGroup;
 			children = (
-				0BE851381BCD5B8800898353 /* Base32.framework */,
-				0BE851391BCD5B8800898353 /* HMAC.framework */,
-				0BEF60BB1BB7CA300059BEE1 /* HMAC.framework */,
-				0BEF60BC1BB7CA300059BEE1 /* Base32.framework */,
+				0B590C8E1D2E657500E61E66 /* Base32.framework */,
+				0B590C8F1D2E657500E61E66 /* HMAC.framework */,
 				0BEF60B91BB7C9570059BEE1 /* Cartfile */,
-				0BE851261BCD5B2100898353 /* General */,
-				0BEF60991BB7C8F30059BEE1 /* SwiftOAuth1a */,
+				0B590C811D2E642F00E61E66 /* Sources */,
 				0BEF60CC1BB7CC040059BEE1 /* SwiftOAuth1aTests */,
-				0BE8512D1BCD5B4700898353 /* SwitfOAuth1aOSX */,
 				0BEF60981BB7C8F30059BEE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,18 +97,8 @@
 			children = (
 				0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */,
 				0BEF60CB1BB7CC040059BEE1 /* SwiftOAuth1aTests.xctest */,
-				0BE8512C1BCD5B4700898353 /* SwitfOAuth1aOSX.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0BEF60991BB7C8F30059BEE1 /* SwiftOAuth1a */ = {
-			isa = PBXGroup;
-			children = (
-				0BEF609A1BB7C8F30059BEE1 /* SwiftOAuth1a.h */,
-				0BEF609C1BB7C8F30059BEE1 /* Info.plist */,
-			);
-			path = SwiftOAuth1a;
 			sourceTree = "<group>";
 		};
 		0BEF60CC1BB7CC040059BEE1 /* SwiftOAuth1aTests */ = {
@@ -158,43 +113,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BE851291BCD5B4700898353 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BE8512F1BCD5B4700898353 /* SwitfOAuth1aOSX.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0BEF60941BB7C8F30059BEE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BEF609B1BB7C8F30059BEE1 /* SwiftOAuth1a.h in Headers */,
+				0B590C8D1D2E642F00E61E66 /* SwiftOAuth1a.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BE8512B1BCD5B4700898353 /* SwitfOAuth1aOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BE851311BCD5B4700898353 /* Build configuration list for PBXNativeTarget "SwitfOAuth1aOSX" */;
-			buildPhases = (
-				0BE851271BCD5B4700898353 /* Sources */,
-				0BE851281BCD5B4700898353 /* Frameworks */,
-				0BE851291BCD5B4700898353 /* Headers */,
-				0BE8512A1BCD5B4700898353 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwitfOAuth1aOSX;
-			productName = SwitfOAuth1aOSX;
-			productReference = 0BE8512C1BCD5B4700898353 /* SwitfOAuth1aOSX.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0BEF60961BB7C8F30059BEE1 /* SwiftOAuth1a */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BEF60AB1BB7C8F30059BEE1 /* Build configuration list for PBXNativeTarget "SwiftOAuth1a" */;
@@ -242,9 +171,6 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = yageek;
 				TargetAttributes = {
-					0BE8512B1BCD5B4700898353 = {
-						CreatedOnToolsVersion = 7.0.1;
-					};
 					0BEF60961BB7C8F30059BEE1 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -267,23 +193,16 @@
 			targets = (
 				0BEF60961BB7C8F30059BEE1 /* SwiftOAuth1a */,
 				0BEF60CA1BB7CC040059BEE1 /* SwiftOAuth1aTests */,
-				0BE8512B1BCD5B4700898353 /* SwitfOAuth1aOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BE8512A1BCD5B4700898353 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0BEF60951BB7C8F30059BEE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B590C881D2E642F00E61E66 /* Info.plist in Resources */,
 				0BEF60BA1BB7C9570059BEE1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,25 +235,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BE851271BCD5B4700898353 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BE851341BCD5B5500898353 /* NSURL.swift in Sources */,
-				0BE851351BCD5B5500898353 /* ParameterList.swift in Sources */,
-				0BE851361BCD5B5500898353 /* Serializer.swift in Sources */,
-				0BE851371BCD5B5500898353 /* String.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0BEF60921BB7C8F30059BEE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BEF60B51BB7C9510059BEE1 /* NSURL.swift in Sources */,
-				0BEF60B71BB7C9510059BEE1 /* Serializer.swift in Sources */,
-				0BEF60B81BB7C9510059BEE1 /* String.swift in Sources */,
-				0BEF60B61BB7C9510059BEE1 /* ParameterList.swift in Sources */,
+				0B590C891D2E642F00E61E66 /* NSURL.swift in Sources */,
+				0B590C8B1D2E642F00E61E66 /* Serializer.swift in Sources */,
+				0B590C8C1D2E642F00E61E66 /* String.swift in Sources */,
+				0B590C8A1D2E642F00E61E66 /* ParameterList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,54 +265,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BE851321BCD5B4700898353 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwitfOAuth1aOSX/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.vndly.SwitfOAuth1aOSX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0BE851331BCD5B4700898353 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwitfOAuth1aOSX/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = io.vndly.SwitfOAuth1aOSX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		0BEF60A91BB7C8F30059BEE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -506,7 +366,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SwiftOAuth1a/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.SwiftOAuth1a;
@@ -528,7 +388,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SwiftOAuth1a/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.SwiftOAuth1a;
@@ -568,14 +428,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BE851311BCD5B4700898353 /* Build configuration list for PBXNativeTarget "SwitfOAuth1aOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BE851321BCD5B4700898353 /* Debug */,
-				0BE851331BCD5B4700898353 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		0BEF60911BB7C8F30059BEE1 /* Build configuration list for PBXProject "SwiftOAuth1a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
