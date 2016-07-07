@@ -11,21 +11,21 @@ import Foundation
 typealias ParameterPair = (name: String, value: String?)
 
 public class ParameterList {
-    
-    var params:[ParameterPair] = []
-    
-    func addParameters(parameters:[String:String]){
-        for (name,value) in parameters {
+
+    var params: [ParameterPair] = []
+
+    func addParameters(parameters: [String:String]) {
+        for (name, value) in parameters {
             self.addParameter(name, value: value)
         }
     }
-    
-    func addParameter(name:String, value:String? = nil){
+
+    func addParameter(name: String, value: String? = nil) {
         self.params.append((name:name.pcen(), value:value?.pcen()))
     }
-    
-    func normalizedParameters(joinElement:String = "&", escapeValues:Bool = false) -> String {
-        
+
+    func normalizedParameters(joinElement: String = "&", escapeValues: Bool = false) -> String {
+
         let sortedItems = self.params.sort({ q1, q2 in
             if q1.name == q2.name {
                 return q1.value < q2.value
@@ -33,8 +33,8 @@ public class ParameterList {
                 return q1.name < q2.name
             }
         })
-        
-        let joinElements = sortedItems.map { (pair:ParameterPair) -> String in
+
+        let joinElements = sortedItems.map { (pair: ParameterPair) -> String in
             var value = pair.value ?? ""
             if escapeValues {
                 value = "\"" + value + "\""
@@ -44,9 +44,6 @@ public class ParameterList {
 
         return joinElements.joinWithSeparator(joinElement)
     }
-    
-    
 
-    
+
 }
-

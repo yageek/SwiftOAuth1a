@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B590C881D2E642F00E61E66 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B590C821D2E642F00E61E66 /* Info.plist */; };
 		0B590C891D2E642F00E61E66 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C831D2E642F00E61E66 /* NSURL.swift */; };
 		0B590C8A1D2E642F00E61E66 /* ParameterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C841D2E642F00E61E66 /* ParameterList.swift */; };
 		0B590C8B1D2E642F00E61E66 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B590C851D2E642F00E61E66 /* Serializer.swift */; };
@@ -29,7 +28,6 @@
 		0B590CB91D2E6B0A00E61E66 /* SwiftOAuth1a.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B590C871D2E642F00E61E66 /* SwiftOAuth1a.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B590CBC1D2E6B1D00E61E66 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B590CBA1D2E6B1D00E61E66 /* HMAC.framework */; };
 		0B590CBD1D2E6B1D00E61E66 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B590CBB1D2E6B1D00E61E66 /* Base32.framework */; };
-		0BEF60BA1BB7C9570059BEE1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0BEF60B91BB7C9570059BEE1 /* Cartfile */; };
 		0BEF60CE1BB7CC040059BEE1 /* SwiftOAuth1aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF60CD1BB7CC040059BEE1 /* SwiftOAuth1aTests.swift */; };
 		0BEF60D01BB7CC040059BEE1 /* SwiftOAuth1a.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +57,9 @@
 		0B590CAD1D2E6AD400E61E66 /* SwiftOAuth1A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOAuth1A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B590CBA1D2E6B1D00E61E66 /* HMAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMAC.framework; path = Carthage/Build/watchOS/HMAC.framework; sourceTree = "<group>"; };
 		0B590CBB1D2E6B1D00E61E66 /* Base32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Base32.framework; path = Carthage/Build/watchOS/Base32.framework; sourceTree = "<group>"; };
+		0B590CBF1D2E6BAE00E61E66 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B590CC01D2E6BAE00E61E66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B590CC31D2E6BB700E61E66 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		0BEF60971BB7C8F30059BEE1 /* SwiftOAuth1a.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOAuth1a.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEF60B91BB7C9570059BEE1 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		0BEF60CB1BB7CC040059BEE1 /* SwiftOAuth1aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOAuth1aTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +129,9 @@
 				0B590C8E1D2E657500E61E66 /* Base32.framework */,
 				0B590C8F1D2E657500E61E66 /* HMAC.framework */,
 				0BEF60B91BB7C9570059BEE1 /* Cartfile */,
+				0B590CC31D2E6BB700E61E66 /* .swiftlint.yml */,
+				0B590CBF1D2E6BAE00E61E66 /* LICENSE */,
+				0B590CC01D2E6BAE00E61E66 /* README.md */,
 				0B590C811D2E642F00E61E66 /* Sources */,
 				0BEF60CC1BB7CC040059BEE1 /* SwiftOAuth1aTests */,
 				0BEF60981BB7C8F30059BEE1 /* Products */,
@@ -228,6 +232,7 @@
 				0BEF60931BB7C8F30059BEE1 /* Frameworks */,
 				0BEF60941BB7C8F30059BEE1 /* Headers */,
 				0BEF60951BB7C8F30059BEE1 /* Resources */,
+				0B590CBE1D2E6B8900E61E66 /* Lint */,
 			);
 			buildRules = (
 			);
@@ -320,8 +325,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B590C881D2E642F00E61E66 /* Info.plist in Resources */,
-				0BEF60BA1BB7C9570059BEE1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +338,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B590CBE1D2E6B8900E61E66 /* Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Lint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 		0BEF60D81BB7CC120059BEE1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

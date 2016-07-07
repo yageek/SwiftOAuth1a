@@ -10,7 +10,9 @@ import Foundation
 
 extension String {
     func pcen() -> String {
+        // swiftlint:disable force_cast
         let characterSet = NSCharacterSet.URLQueryAllowedCharacterSet().mutableCopy() as! NSMutableCharacterSet
+        // swiftlint:enable force_cast
         characterSet.removeCharactersInString("!*'();:@&=+$,/?%#[]")
         return stringByAddingPercentEncodingWithAllowedCharacters(characterSet)!
     }
